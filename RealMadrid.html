@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+
+<head>
+    <meta charset="UTF-8"/>
+    <title>Unofficial Real Madrid Website</title>
+    <link rel="stylesheet" href="rma.css" />
+    <script type="text/javascript" src="comments.js"></script>
+    <script type="text/javascript" src="rmajs.js"></script>
+</head>
+
+<body class="wrapper">
+    <a id="home"></a>
+
+    <div class="fundalalb">
+        <h1>
+            <img class="logo" src="logo.png" alt="Real Madrid Logo">
+            <a href="#home">Home</a>
+            
+            <button class="dropdown">
+              <a class="dropbtn"><h3><b>Squad</b></h3></a>
+              <div class="dropdown-content">
+                <a href="#def">Defence</a>
+                <a href="#mid">Midfield</a>
+                <a href="#att">Attack</a>
+              </div>
+            </button>
+
+            <a href="#tro">Trophies</a>
+
+            <button class="dropdown">
+                <a class="dropbtn"><h3><b>Themes</b></h3></a>
+                <div class="dropdown-content">
+                  <a id="theme1" onclick="switchGalaxy()">Galaxy</a>
+                  <a id="theme2" onclick="switchGolden()">Golden</a>
+                </div>
+              </button>
+
+              <button onclick="ascunde_imaginile()" id="imgbut">Ascunde imaginile</button>
+
+              <a >
+                <label id="bgcolorlabel">      Background color:</label>
+                <input type="text">
+                <button onclick="change_bgcolor()">Change BG</button>
+              </a>
+
+
+        </h1>
+      
+
+  
+    </div>
+
+    <div id="qotd">
+    <a id="quote2">               Stupid Football Quote:</a>
+    <a id="quote">aici apare textu</a>
+  </div>
+
+
+    <p class="descriere">
+            Real Madrid Club de Fútbol, cunoscut mai mult ca Real Madrid, sau simplu Real, este un club de fotbal profesionist din Madrid, Spania, care evoluează în Primera División. Este una dintre cele de mai succes echipe din fotbalul spaniol și a fost desemnată de FIFA drept „Cel mai bun club al secolului XX” după ce a câștigat un număr record de 33 de titluri La Liga, 19 cupe ale Spaniei, un număr record de 13 titluri Liga Campionilor UEFA / Cupa Campionilor Europeni și două Cupe UEFA. Real este unul din membrii fondatori ai FIFA și al defunctului grup de cluburi de fotbal europene de elită G-14, precum și al înlocuitoarei sale, Asociația Cluburilor Europene.
+
+            Real Madrid este cel mai bogat club de fotbal din lume în materie de venituri, cu încasări anuale de peste 513 milioane € și totodată este cel mai scump club din lume, cu o valoare de circa 2,4 miliarde € (3,3 miliarde $). Fondat în 1902, Real Madrid este una din cele trei echipe din Spania care nu au retrogradat niciodată în ligile inferioare, celelate două fiind Athletic Bilbao și Barcelona. Real Madrid are multe rivalități de lungă durată, cele mai notabile fiind El Clásico cu FC Barcelona și El Derbi madrileño cu Atlético Madrid. Clubul s-a afirmat ca o forță majoră atât în fotbalul spaniol cât și în cel european în anii 1950. În anii 1980, clubul avea una dintre cele mai bune echipe din Spania și Europa (cunoscută ca La Quinta del Buitre), câștigând două cupe UEFA, cinci campionate ale Spaniei la rând, o cupă și trei supercupe ale Spaniei.
+            
+            Echipa joacă într-un echipament alb complet, de unde și porecla Los Blancos (Albii). Logoul său a fost schimbat de mai multe ori ca urmare a încercărilor de a-l moderniza; logoul actual este o versiune modificată a celui din 1920. Stadionul pe care își dispută meciurile de acasă este Santiago Bernabéu din Madrid, unde echipa joacă din 1947. Capacitatea sa este de 85 454 de spectatori. Spre deosebire de majoritatea cluburilor europene de fotbal, membrii clubului Real Madrid (socios) au deținut și operat clubul încă de la întemeierea sa. De asemenea, clubul mai are și o echipă de rezervă, Real Madrid Castilla, dar și o reușită echipă de baschet, Real Madrid Baloncesto.
+    </p>
+
+ <div class="font">
+        <a id="def"></a>
+    <br><br>
+    <H1 id="acialb">Squad:</H1>
+    
+    <br>
+    
+    <H2><a href="#def" id="acialb1">Defence</a></H2>
+    <div>
+    <a><img src="courtois.jpg" title="Thibaut Courtois" alt="Courtois"></a>
+    <a><img src="carvajal.jpg" title="Dani Carvajal" alt="Carvajal"></a>
+    <a><img src="ramos.jpg" title="Sergio Ramos" alt="Ramos"></a>
+    <a><img src="varane.jpg" title="Raphael Varane" alt="Varane"></a>
+    <a><img src="marcelo.jpg" title="Marcelo" alt="Marcelo"></a>
+    <a><img src="mendy.jpg" title="Ferland Mendy" alt="Mendy"></a>
+    </div>
+    <a id="mid"></a>
+    <br><br><br><br><br><br>
+    
+    
+    <H2><a href="#mid" id="acialb2">Midfield</a></H2>
+    <div>
+            <a><img src="kroos.jpg" title="Toni Kroos" alt="Kroos"></a>
+            <a><img src="modric.jpg" title="Luka Modric" alt="Modric"></a>
+            <a><img src="james.jpg" title="James Rodriguez" alt="James"></a>
+            <a><img src="casemiro.jpg" title="Casemiro" alt="Casemiro"></a>
+            <a><img src="isco.jpg" title="Isco Alcaron" alt="Isco"></a>
+            <a><img src="valverde.jpg" title="Federico Valverde" alt="Valverde"></a>
+ </div>
+ <a id="att"></a>
+ <br><br><br><br><br><br>
+ 
+ 
+ <H2><a href="#att" id="acialb3">Attack</a></H2>
+ <div>
+         <a><img src="hazard.jpg" title="Eden Hazard" alt="poza"></a>
+         <a><img src="vinicius.jpg" title="Vinicius Junior" alt="poza"></a>
+         <a><img src="benzema.jpg" title="Karim Benzema" alt="poza"></a>
+         <a><img src="bale.jpg" title="Gareth Bale" alt="poza"></a>
+         <a><img src="jovic.jpg" title="Luka Jovic" alt="poza"></a>
+         <a><img src="rodrygo.jpg" title="Rodrygo" alt="Rodrygo"></a>
+</div>
+
+</div>
+<a id="tro"></a>
+<br><br><br><br><br><br><br>
+ 
+
+<div class="font">
+    <H2><a href="#tro" id="acialb4">Trophies</a></H2>
+        <img src="t1.png" alt="poza">
+        <img src="t2.png" alt="poza">
+        <img src="t3.png" alt="poza">
+        <img src="t4.png" alt="poza">
+        <img src="t5.png" alt="poza">
+        <img src="t6.png" alt="poza">
+        <img src="t7.png" alt="poza">
+        <img src="t8.png" alt="poza">
+        <img src="t9.png" alt="poza">
+        <img src="t10.png" alt="poza">
+        <img src="t11.png" alt="poza">
+        <img src="t12.png" alt="poza">
+        <img src="t13.png" alt="poza">
+</div>
+
+
+<div id="effects" class="effects">
+        <a class="hvr-buzz"><img src="tr.png" width="1000px" height="400px"></a>
+        </div>
+
+
+<br><br>
+
+<ul id="lista" class="ulmc">
+        <li id="item1">Real Madrid - Barcelona</li>  
+        <li id="item2">Real Madrid - Valencia</li>
+</ul>
+<br>
+<h2 id="clasament">Clasament:</h2>
+<ul ondblclick="inverseaza_lista()" id="ulclasament">
+  <li>FC Real Madrid</li>
+  <li>FC Barcelona</li>
+  <li>FC Atletico Madrid</li>
+</ul>
+
+<hr>
+
+<h4>Scrie un comentariu</h4>
+
+        <h4>Name:</h4>
+        <input id='name' type='text' placeholder="name"/>
+        </br>
+        <h4>Comment:</h4>
+        <textarea id='comment'> </textarea> 
+        <input type='button' value="Send" onClick="sendInformation()">
+		
+		
+		<h4>Comentarii</h4>
+
+<div id='responseArea'></div>
+
+<script>
+window.onload=function()
+{
+  
+    setTimeout(function(){ alert("Welcome to the unofficial Real Madrid website !"); }, 500);
+   
+    
+var list=document.getElementById("lista");
+var el1=creare("li","Real Madrid - Atletico Madrid");
+list.appendChild(el1);
+var el2=creare("h2","URMATOARELE MECIURI:");
+
+
+document.body.insertBefore(el2,list);
+
+salut_utilizator();
+
+		getComments();
+
+}
+</script>
+
+<script>
+
+function mesaj_random()
+{
+  const quotes = ["Both sides have scored a couple of goals, and both sides have conceded a couple of goals. -Peter Withe","The thing about goalscorers is that they score goals. -Tony Cottee","Not to win is guttering. -Mark Noble","And with 4 minutes gone, the score is already 0-0. -Ian Dark","I don't think there is anybody bigger or smaller than Maradona. -Kevin Keegan","A game is not won until it is lost. -David Pleat","I'd like to play for an Italian club, like Barcelona. -Mark Draper","Germany are a very difficult team to play... they had 11 internationals out there today. -Steve Lomas","The first ninety minutes of a football match are the most important. -Bobby Robson"];
+const r = Math.round(Math.random()*(quotes.length-1));
+document.getElementById("quote").innerHTML = quotes[r];
+
+}
+mesaj_random()
+
+</script>
+
+</body>
+
+</html>
